@@ -70,10 +70,9 @@ function esVocal(letra) {
    // Si no es vocal, tambien debe retornar "Dato incorrecto".
    // Tu código:
    if (letra.length === 1) {
-      letra = letra.toLowerCase();
       if ("aeiou".includes(letra)) {
         return "Es vocal";
-      } else {
+      } else if ("string.length > 1") {
         return "Dato incorrecto";
       }
     } else {
