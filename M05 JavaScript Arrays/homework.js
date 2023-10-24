@@ -266,7 +266,7 @@ function continueStatement(num) {
 
    return resultados;
 }
-
+ 
 /*⚠️ NO MODIFIQUES NADA DEBAJO DE ESTO ⚠️*/
 module.exports = {
    devolverPrimerElemento,
